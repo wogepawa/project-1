@@ -1,0 +1,18 @@
+Interface:
+    TextInput:
+        id: textInput
+        size_hint:0.5,0.1
+        pos_hint: {'center_x':0.5, 'center_y':0.6}
+        multiline: False
+        hint_text: 'Entre qqchose niochon'
+
+    Label:
+        id:label
+        text:'R i e n'
+        size_hint:0.5,0.1
+        pos_hint: {'center_x':0.5, 'center_y':0.5}
+    Button:
+        text: 'Click encore'
+        size_hint:0.5,0.1
+        pos_hint:{'center_x':0.5, 'center_y':0.4}
+        on_press: root.displayInfo()     
